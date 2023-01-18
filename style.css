@@ -1,12 +1,27 @@
 * { 
 	box-sizing: border-box;
+  color: green;
 }
-/* rule 1 */
-.subsection {
-    color: blue;
-  }
-  
-  /* rule 2 */
-  .main .list {
-    color: red;
-  }
+div {
+  background-color: tan;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+.button{
+  color: red;
+}
+.inverted,
+.fancy {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  font-size: 28px;
+}
+
+.inverted {
+  background-color: black;
+  color: white;
+}
+
+.fancy {
+  background-color: yellow;
+}
